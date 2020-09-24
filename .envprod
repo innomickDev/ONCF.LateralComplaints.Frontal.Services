@@ -1,0 +1,11 @@
+API_RUNNING_PORT=3002
+SERVICE_PATH_CERTIFICATE_BUNDLE = "/etc/nginx/pprdweb-2255-cert.pem"
+SERVICE_PATH_CERTIFICATE_KEY = "/etc/nginx/pprdweb-2255-key.pem"
+SERVICE_PATH_CERTIFICATE_CA = "/etc/nginx/ca.pem"
+SERVICE_PATH_CERTIFICATE_PASSPHRASE = "ONCF22552020"
+BO_URL="https://SRv2255prep:443/GRCLateralComplaintsGateway/LateralComplaintsService.svc/rest/"
+BOUSER_URL="https://SRv2255prep:443/GRCComplaintUsersGateway/ComplaintUsersService.svc/rest/"
+FRONT_URL="https://SRv2255prep:443/GRCComplaintsGateway/ComplaintsService.svc/rest/"
+LOGGING_URL="https://SIV35VIPPRPGW/ONCF_Logging_Gateway/LoggingService.svc/rest/"
+ECOMMERCE_URL="https://SIV35VIPPRPGW/ONCF_Ecommerce_Gateway/EcommerceService.svc/rest/"
+IDENTITY_URL="https://SIV35VIPPRPGW/ONCF_Identity_Gateway/IdentityService.svc/rest/"
